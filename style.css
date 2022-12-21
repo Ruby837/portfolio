@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+  font-family: sans-serif;
+  }
+  body{
+       background-color: rgb(252, 252, 252);
+       width: 100%;
+    }
+
+    header{
+        background: white;
+        width: 100%;
+        position: fixed;
+        top: 0;
+    }
+    
+    nav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        float: right;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       }
+
+    nav ul{
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-left: 40%;
+        justify-content: center;
+    }
+    
+    nav ul li{
+    }
+    
+    nav ul li a{
+        float: right;
+        word-spacing: 10px;
+        font-weight: bold;
+        margin: 1px 10px;
+        padding: 0px 10px;
+        word-spacing: 3px;
+        text-decoration: none;
+        color: rgb(9, 9, 88);
+    }
+
+    nav ul li a:hover{
+        color: blue;
+        cursor:context-menu;
+    }
+
+    .container1{
+        width: 90%;
+        margin: 0 10px;
+        margin-top: 100px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .container1-text{
+        width: 50%;
+        margin: 100px 30px;
+    }
+
+    .container1-img{
+        width: 30%;
+        display: flex;
+        margin-left: 100px;
+    
+
+    }
+
+    .container2{
+        width: 90%;
+        margin: 0 10px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .container2-text{
+        width: 50%;
+        margin: 100px 30px;
+    }
+
+    .container2-img{
+        width: 30%;
+        display: flex;
+        margin-left: 100px;
+    
+
+    }
+
+    /* @media only screen and (max-width: 1100px){
+        header{
+            background: rgb(129, 183, 244);
+            width: 100%;
+            position: fixed;
+            top: 0;
+        }
+        nav{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            float: right;
+            box-shadow: rgba(172, 199, 111, 0.297) 0px 5px 15px;
+           }
+           nav ul{
+            text-decoration: none;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            margin-left: 40%;
+            justify-content: center;
+        }
+        .container1-img{
+            width: 30%;
+            display: flex;
+            margin-left: 0px;
+        }
+        
+        .container2-img{
+            width: 30%;
+            display: flex;
+            margin-left: 0px;
+    
+    }
+} */
